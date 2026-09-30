@@ -1,0 +1,7 @@
+# Sensitive environment files
+python/.env
+.env
+
+# Terraform sensitive variables
+terraform/terraform.tfvars
+

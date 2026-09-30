@@ -1,0 +1,5 @@
+confluent-kafka[schema-registry]>=2.3.0
+jsonschema>=4.0.0
+fastapi>=0.110.0
+uvicorn>=0.27.0
+python-dotenv>=1.0.0

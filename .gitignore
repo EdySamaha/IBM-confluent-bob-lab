@@ -1,0 +1,26 @@
+# --- Secrets (NEVER commit) ---
+build/.env
+**/.env
+!**/.env.example
+build/*-key.json
+build/kafka-key.json
+build/flink-key.json
+*.secret
+state.json
+*.tfvars
+*.tfvars.json
+
+# --- Python ---
+**/.venv/
+**/venv/
+__pycache__/
+*.pyc
+
+# --- Terraform state ---
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# --- OS / editor cruft ---
+.DS_Store
+Thumbs.db

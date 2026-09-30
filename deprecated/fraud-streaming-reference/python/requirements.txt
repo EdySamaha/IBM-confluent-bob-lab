@@ -1,0 +1,6 @@
+confluent-kafka[schema-registry]>=2.3.0
+# JSONSerializer imports `jsonschema`, which the [schema-registry] extra does not
+# pull in on current confluent-kafka builds — declare it explicitly.
+jsonschema>=4.0.0
+orjson>=3.9.0
+python-dotenv>=1.0.0

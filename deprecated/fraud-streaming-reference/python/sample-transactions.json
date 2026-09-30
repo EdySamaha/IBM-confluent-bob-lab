@@ -1,0 +1,23 @@
+[
+  {
+    "account_id": "ACC-001",
+    "merchant": "Apple Store",
+    "amount": 219.99,
+    "transaction_type": "PURCHASE",
+    "transaction_time": 1758440410000
+  },
+  {
+    "account_id": "ACC-002",
+    "merchant": "Shell",
+    "amount": 54.20,
+    "transaction_type": "PAYMENT",
+    "transaction_time": 1758440415000
+  },
+  {
+    "account_id": "ACC-999",
+    "merchant": "Watermark-Trigger",
+    "amount": 1.00,
+    "transaction_type": "PAYMENT",
+    "transaction_time": 1758440770000
+  }
+]

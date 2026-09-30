@@ -1,0 +1,15 @@
+# Copy to terraform.tfvars and fill in your Cloud API key/secret.
+# Create the key in Confluent Cloud: Settings -> API keys -> "Cloud resource
+# management", scope "My account". Do NOT create a cluster in the wizard.
+
+confluent_cloud_api_key    = "XXXXXXXXXXXXXXXX"
+confluent_cloud_api_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# Optional — sensible defaults are set in variables.tf.
+environment_name       = "fraud-streaming-env"
+cluster_name           = "fraud-cluster"
+cloud_provider         = "AWS"
+region                 = "us-east-1"
+flink_max_cfu          = 5
+fraud_window_minutes   = 5
+fraud_amount_threshold = 1000
