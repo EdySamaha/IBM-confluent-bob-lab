@@ -49,6 +49,7 @@ is *heating up*.
 | Goal | Start here |
 |------|------------|
 | **Run / teach the lab** (60 min, Confluent + Bob) | [`lab/`](lab/) — the student Word guide |
+| **Drive it with the AI co-pilot** (copy-paste Bob prompts) | [`BOB_PROMPTS.md`](BOB_PROMPTS.md) — granular, checkpointed, 60 min |
 | **See the exact verified build** (SQL, resources, REST) | [`LAB.md`](LAB.md) |
 | **Confirm your own build works** | [`VALIDATE_OUTPUT.md`](VALIDATE_OUTPUT.md) — smoke test |
 
@@ -59,6 +60,7 @@ is *heating up*.
 | Path | What's inside |
 |------|---------------|
 | [`README.md`](README.md) | This overview (start here) |
+| [`BOB_PROMPTS.md`](BOB_PROMPTS.md) | AI co-pilot path: copy-paste IBM Bob prompts for every step, each with a verify-before-you-continue checkpoint, timed to 60 minutes |
 | [`LAB.md`](LAB.md) | Full REST-driven walkthrough: architecture, resources, the 5 Flink SQL statements, verified result |
 | [`VALIDATE_OUTPUT.md`](VALIDATE_OUTPUT.md) | Stage-by-stage checklist to verify a build end to end (what to look for · test · expected · fix) |
 | [`lab/`](lab/) | Student-facing 60-minute Word lab (`.docx`) weaving Confluent Cloud + IBM Bob, plus its generator |
