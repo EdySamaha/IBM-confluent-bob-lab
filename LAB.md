@@ -245,4 +245,4 @@ on each), and finally the two API keys. The environment `env-k225o6` can stay.
 
 - `build/` — build scripts and captured API responses (`build/.env` holds live secrets, git‑ignored).
 - `build/flink.sh` — reusable Flink SQL REST helper (`flink_submit`, `flink_status`, `flink_results`, `flink_wait`, `flink_delete`).
-- `deprecated/` — the earlier Bob + Terraform + Orchestrate workshop material (kept, not deleted).
+- `old/lab_terraform_orchestrate/` — the earlier Bob + Terraform + Orchestrate workshop material (kept, not deleted).

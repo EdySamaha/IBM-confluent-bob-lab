@@ -63,7 +63,7 @@ is *heating up*.
 | [`VALIDATE_OUTPUT.md`](VALIDATE_OUTPUT.md) | Stage-by-stage checklist to verify a build end to end (what to look for · test · expected · fix) |
 | [`lab/`](lab/) | Student-facing 60-minute Word lab (`.docx`) weaving Confluent Cloud + IBM Bob, plus its generator |
 | [`build/`](build/) | Automation artifacts from the verified build: Flink REST helper, API responses, captured forecast rows. **Secrets are git-ignored.** |
-| [`deprecated/`](deprecated/) | Earlier IBM Bob + Terraform + watsonx Orchestrate workshop, kept for history (superseded) |
+| [`old/lab_terraform_orchestrate/`](old/lab_terraform_orchestrate/) | Earlier IBM Bob + Terraform + watsonx Orchestrate workshop, kept for history (superseded) |
 
 ---
 
