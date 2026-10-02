@@ -1,0 +1,16 @@
+# Keep Bob focused on the trade-forecasting Flink SQL lab.
+# The older Terraform/Python/Orchestrate workshop (and its own .bob skill) lives
+# here for history only — don't let Bob load or reason from it.
+old/
+
+# Build artifacts and secrets — never for Bob to read.
+build/
+
+# Generated Word lab + its node toolchain.
+lab/*.docx
+node_modules/
+
+# Local env / VCS cruft.
+.git/
+.venv/
+*.env

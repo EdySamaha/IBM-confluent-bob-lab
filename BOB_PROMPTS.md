@@ -37,15 +37,22 @@ Every step below has four parts:
 
 ## Load the skill (do this once, before the clock starts)
 
-Bob writes sharper Confluent SQL when it has the companion **skill** loaded:
+Bob writes sharper Confluent SQL when it has **this lab's companion skill**
+loaded. It ships **inside this repo** at
+`.bob/skills/trade-forecasting-flink/SKILL.md`:
 
 ```bash
-git clone https://github.com/bleporini/fraud-confluent-terraform-bob.git
+git clone https://github.com/EdySamaha/IBM-confluent-bob-lab.git
 ```
 
-- **Open that folder as your Bob workspace** so Bob discovers the skill at
-  `.bob/skills/confluent-iac-terraform/SKILL.md`, **or**
-- copy that `.bob/skills/` folder into your own Bob workspace.
+- **Open the cloned repo folder as your Bob workspace** so Bob discovers the
+  skill at `.bob/skills/trade-forecasting-flink/SKILL.md`, **or**
+- copy this repo's `.bob/skills/` folder into your own Bob workspace.
+
+> This skill is specific to the trade-forecasting Flink SQL lab (Datagen AVRO
+> connectors, materialized tables, temporal join, TUMBLE, `ML_FORECAST`,
+> suspend/resume) — **not** the older Terraform/Python workshop under
+> `old/lab_terraform_orchestrate/`.
 
 > No skill? Bob can still produce correct Flink SQL from the prompts below — the
 > skill mainly tightens its Confluent-specific conventions. Load it if you can.
@@ -378,9 +385,10 @@ without hand-editing SQL yourself.
 
 **🏆 Stretch (if time allows)**
 ```
-Generate Terraform (Infrastructure-as-Code) that provisions this whole pipeline:
-the Kafka cluster, Schema Registry, Flink compute pool, API keys, role bindings,
-and the Flink statements.
+Turn the heating-up watch list into its own always-on MATERIALIZED TABLE —
+trades_alerts — that continuously holds only the symbols whose forecast_count is
+at least 25% above current_count, so a downstream consumer could subscribe to it.
+Give me the CREATE MATERIALIZED TABLE statement over trades_forecast.
 ```
 
 ---

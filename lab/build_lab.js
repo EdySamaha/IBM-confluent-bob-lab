@@ -221,10 +221,10 @@ children.push(H2("Meet Bob — your AI SDLC assistant"));
 children.push(P("IBM Bob is an agentic AI assistant for the software lifecycle. In this lab Bob plays one focused role: you tell it, in plain English, what the pipeline should do, and it produces the Flink SQL, explains the tricky parts, and helps you debug. You stay in control — you read what Bob writes, run it in Confluent Cloud, and confirm the result."));
 children.push(P([
   run("Bob works best when it has a ", {}), run("skill", { bold: true }),
-  run(" — a file that teaches it Confluent + Flink patterns. A ready-made one lives in the companion workspace:", {}),
+  run(" — a file that teaches it this lab's Confluent + Flink patterns. One ships inside this lab's repo:", {}),
 ]));
-children.push(...code(`git clone https://github.com/bleporini/fraud-confluent-terraform-bob.git`));
-children.push(bullet([run("Open that folder as your Bob workspace so Bob discovers the skill at ", {}), run(".bob/skills/confluent-iac-terraform/SKILL.md", { font: MONO }), run(", or", {})]));
+children.push(...code(`git clone https://github.com/EdySamaha/IBM-confluent-bob-lab.git`));
+children.push(bullet([run("Open the cloned repo folder as your Bob workspace so Bob discovers the skill at ", {}), run(".bob/skills/trade-forecasting-flink/SKILL.md", { font: MONO }), run(", or", {})]));
 children.push(bullet("copy that .bob/skills/ folder into your own Bob workspace."));
 children.push(tip("💡  If you don't have the skill loaded", [
   "Bob can still write correct Flink SQL from the prompts in this lab — the skill mainly sharpens its Confluent-specific conventions. Load it if you can; proceed either way.",
