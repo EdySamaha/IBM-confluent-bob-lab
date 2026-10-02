@@ -48,6 +48,7 @@ is *heating up*.
 
 | Goal | Start here |
 |------|------------|
+| **Follow the illustrated lab** (screenshots at every step) | [`LAB_MANUAL.md`](LAB_MANUAL.md) — upstream steps + Bob prompts, with 21 screenshots |
 | **Run / teach the lab** (60 min, Confluent + Bob) | [`lab/`](lab/) — the student Word guide |
 | **Drive it with the AI co-pilot** (copy-paste Bob prompts) | [`BOB_PROMPTS.md`](BOB_PROMPTS.md) — granular, checkpointed, 60 min |
 | **See the exact verified build** (SQL, resources, REST) | [`LAB.md`](LAB.md) |
@@ -60,6 +61,7 @@ is *heating up*.
 | Path | What's inside |
 |------|---------------|
 | [`README.md`](README.md) | This overview (start here) |
+| [`LAB_MANUAL.md`](LAB_MANUAL.md) | Illustrated hands-on manual merging the upstream Confluent lab (steps + screenshots in [`screenshots/`](screenshots/)) with a granular IBM Bob prompt per step — payment steps removed. A matching Word handout is in [`lab/`](lab/). |
 | [`BOB_PROMPTS.md`](BOB_PROMPTS.md) | AI co-pilot path: copy-paste IBM Bob prompts for every step, each with a verify-before-you-continue checkpoint, timed to 60 minutes |
 | [`.bob/skills/trade-forecasting-flink/`](.bob/skills/trade-forecasting-flink/SKILL.md) | The IBM Bob **skill** for this lab — teaches Bob this lab's Flink SQL patterns (Datagen AVRO, materialized tables, temporal join, TUMBLE, `ML_FORECAST`). Open the repo as a Bob workspace to load it. |
 | [`LAB.md`](LAB.md) | Full REST-driven walkthrough: architecture, resources, the 5 Flink SQL statements, verified result |
